@@ -1,0 +1,78 @@
+;Melhor Abordagem
+(resolve-solitario '
+(("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" NIL "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X"))
+ "melhor.abordagem")
+
+;A* heuristica 1
+(resolve-solitario '
+(("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" NIL "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X"))
+ "a*.melhor.heuristica")
+
+;A* heuristica 2
+(resolve-solitario '
+(("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" NIL "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X"))
+ "a*.melhor.heuristica.alternativa")
+
+;Sondagem Iterativa
+(resolve-solitario '
+(("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" NIL "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X"))
+ "sondagem.iterativa")
+
+;DDS
+(resolve-solitario '
+(("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" NIL "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X"))
+ "DDS")
+
+;Abordagem Alternativa
+(resolve-solitario '
+(("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" NIL "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("O" "O" "O" "O" "O" "O" "O" "O" "O")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X")
+ ("X" "X" "O" "O" "O" "O" "O" "X" "X"))
+ "abordagem.alternativa")
+
