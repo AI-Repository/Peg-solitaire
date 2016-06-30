@@ -12,7 +12,6 @@ You can read more info in this link: http://en.wikipedia.org/wiki/Peg_solitaire
 ### Features
 * Artificial Intelligence Search Algorithms
 * Lisp
-* 
 
 #### Developers
 * André Santos
