@@ -8,3 +8,12 @@ This game consist on removing all the pieces on board via valid movements.
 Were developed different search strategies and heuristics that allow to solve the problem in most effective way possible.
 
 You can read more info in this link: http://en.wikipedia.org/wiki/Peg_solitaire
+
+### Features
+* Artificial Intelligence Search Algorithms
+* Lisp
+* 
+
+#### Developers
+* André Santos
+* Ruben Santos
